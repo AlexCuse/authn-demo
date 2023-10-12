@@ -12,5 +12,5 @@ docker run -it --rm \
   -e AUTHN_URL \
   -e GITHUB_OAUTH_CREDENTIALS \
   --name authn_demo \
-  keratin/authn-server:1.4.1 \
+  keratin/authn-server:1.17.1 \
   sh -c "./authn migrate && ./authn server"
